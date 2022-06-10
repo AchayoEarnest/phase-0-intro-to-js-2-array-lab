@@ -11,7 +11,7 @@ function destructivelyPrependCat(){
 }
 
 function destructivelyRemoveLastCat(){
-    return cats.pop("Milo", "Otis");     
+    return cats.pop([0], "Otis");     
 }
 function destructivelyRemoveFirstCat(){
     return cats.pop();     
